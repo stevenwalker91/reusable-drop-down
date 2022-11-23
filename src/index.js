@@ -1,8 +1,3 @@
-import './style.css'; 
+import initaliseDropdown from "./dropdown";
 
-const dropdownBtns = document.querySelectorAll('dropdown-btn');
-dropdownBtns.forEach(btn => addEventListener('click', console.log('click')))
-
-const test = () => {
-    console.log('test')
-}
+initaliseDropdown();
