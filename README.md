@@ -1,4 +1,4 @@
-# reusable-drop-down
+# Reusable Dropdown
 
 ## Overview
 
@@ -9,8 +9,9 @@ The code creates the necessary styles for showing and displaying the dropdown co
 Additional styling is not applied as it is assumed anyone using the component will want to apply their own styling.
 
 ## Usage
+import initaliseDropdown from "./dropdown";
 
-
+initaliseDropdown();
 
 In order to use the component create a `button` with a class of `dropdown-btn` immediately proceeded by a `div` with a class of `dropdown-container`. The `div` will then contain any drop down content.
 
